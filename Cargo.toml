@@ -1,0 +1,10 @@
+[package]
+name = "alice-crm"
+version = "1.0.0"
+edition = "2021"
+authors = ["Moroya Sakamoto"]
+license = "MIT"
+description = "ALICE CRM - Customer Relationship Management with deal pipeline, lead scoring, RFM segmentation, and funnel analytics"
+
+[lib]
+crate-type = ["rlib"]
