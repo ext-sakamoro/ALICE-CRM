@@ -3,7 +3,7 @@ name = "alice-crm"
 version = "1.0.0"
 edition = "2021"
 authors = ["Moroya Sakamoto"]
-license = "MIT"
+license = "AGPL-3.0"
 description = "ALICE CRM - Customer Relationship Management with deal pipeline, lead scoring, RFM segmentation, and funnel analytics"
 
 [lib]
