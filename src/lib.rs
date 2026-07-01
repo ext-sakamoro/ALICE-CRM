@@ -6,6 +6,10 @@
 //! Pure Rust CRM with contact management, deal pipeline, lead scoring,
 //! RFM segmentation, activity tracking, notes, tags, custom fields,
 //! funnel metrics, and conversion rate analytics.
+//! v1.1 で `signed_contact` module (Ed25519 署名 + hash chain 接触 audit) を追加。
+
+pub mod signed_contact;
+pub use signed_contact::{ContactEventKind, ContactRecord, ContactTrail, SignedContactRecord};
 
 use std::collections::HashMap;
 
