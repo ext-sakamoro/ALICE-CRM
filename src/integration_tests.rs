@@ -8,18 +8,12 @@
 )]
 
 use crate::activity::*;
-use crate::contact::*;
 use crate::deal::*;
 use crate::engine::*;
 use crate::field::*;
-use crate::funnel::*;
 use crate::id_gen::*;
 use crate::lead_score::*;
-use crate::note::*;
 use crate::rfm::*;
-use std::collections::HashMap;
-
-use super::*;
 
 fn make_crm() -> Crm {
     Crm::new()
