@@ -18,7 +18,7 @@
 //! - **改正個人情報保護法 §21** — 苦情処理体制; 接触記録の完全性が
 //!   監査対象.
 //!
-//! Cryptographic primitives are provided by `alice-blockchain` (`Ed25519`).
+//! Cryptographic primitives are provided by `alice-sign` (`Ed25519`).
 
 #![allow(
     clippy::doc_markdown,
@@ -28,7 +28,7 @@
     clippy::cast_possible_truncation
 )]
 
-use alice_blockchain::signature::{KeyPair, PublicKey, Signature};
+use alice_sign::signature::{KeyPair, PublicKey, Signature};
 
 // ---------------------------------------------------------------------------
 // ContactEventKind
